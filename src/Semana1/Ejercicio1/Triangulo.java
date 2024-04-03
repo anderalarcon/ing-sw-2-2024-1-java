@@ -3,9 +3,9 @@ package Semana1.Ejercicio1;
 public class Triangulo {
 
     private int base;
-    private int altura;
+    private double altura;
 
-    public Triangulo(int base, int altura) {
+    public Triangulo(int base, double altura) {
         this.base = base;
         this.altura = altura;
     }
@@ -14,7 +14,7 @@ public class Triangulo {
         return base;
     }
 
-    public int getAltura() {
+    public double getAltura() {
         return altura;
     }
 
@@ -22,7 +22,7 @@ public class Triangulo {
         this.base = base;
     }
 
-    public void setAltura(int altura) {
+    public void setAltura(double altura) {
         this.altura = altura;
     }
 
@@ -31,7 +31,7 @@ public class Triangulo {
         System.out.println("La altura es " + altura);
     }
 
-    public int calcularArea() {
+    public double calcularArea() {
         return this.base * this.altura;
     }
 }
