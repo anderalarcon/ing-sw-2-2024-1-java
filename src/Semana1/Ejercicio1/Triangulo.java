@@ -32,6 +32,6 @@ public class Triangulo {
     }
 
     public double calcularArea() {
-        return this.base * this.altura;
+        return base * altura;
     }
 }

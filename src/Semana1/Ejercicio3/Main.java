@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         try {
-            Rectangulo r1 = new Rectangulo(2, 0);
+            Rectangulo r1 = new Rectangulo(2,2 );
             System.out.println("El area del rectangulo es :" + r1.calcularArea());
 
             Circulo c1 = new Circulo(4);

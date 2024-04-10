@@ -20,7 +20,7 @@ public class Auto extends Vehiculo {
     @Override
     public void mostrarDatos() {
         super.mostrarDatos();
-        System.out.println("El carro tiene :" + this.puertas + "puertas");
+        System.out.println("El carro tiene :" + puertas + "puertas");
     }
 
 }

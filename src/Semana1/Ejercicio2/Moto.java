@@ -20,6 +20,6 @@ public class Moto extends Vehiculo {
     @Override
     public void mostrarDatos() {
         super.mostrarDatos();
-        System.out.println("La moto es de tipo: " + this.tipo);
+        System.out.println("La moto es de tipo: " + tipo);
     }
 }
