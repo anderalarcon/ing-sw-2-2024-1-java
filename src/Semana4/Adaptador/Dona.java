@@ -2,7 +2,7 @@ package Semana4.Adaptador;
 
 public class Dona implements Comida {
 
-    String comida = "Churro";
+    String comida = "Dona";
     String[] ingredientes = {"Azucar", "Agua"};
 
     @Override
